@@ -4,7 +4,7 @@
 
 function device_write(sn, alias, value)
   local device = kv_read(sn)
-  device.alias = value
+  device[alias] = value
 
   -- save to keystore
   kv_write(sn, device)
