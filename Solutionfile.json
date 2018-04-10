@@ -4,7 +4,7 @@
   "custom_api": "sample_api.lua",
   "custom_api_hook": "_init",
   "modules": {
-    "device": "modules/device.lua",
+    // "device": "modules/device.lua",
     "util": "modules/util.lua",
     "debug": "modules/debug.lua",
     "listen": "modules/listen.lua"
